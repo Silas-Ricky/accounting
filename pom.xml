@@ -31,16 +31,14 @@
 	<distributionManagement>
         <!-- use the following if you're not using a snapshot version. -->
             <repository>
-                <id>shimla-nexus</id>
-                <name>Shimla nexus repo</name>
-                <url>http://hospdev.hispindia.org/nexus/content/repositories/releases/</url>
+				<id>afyaehms-snapshots</id>
+				<url>http://afyaehms.org:8081/nexus/content/repositories/releases</url>
             </repository>
         <!-- use the following if you ARE using a snapshot version. -->
             <snapshotRepository>
-                <id>shimla-nexus</id>
-                <name>Shimla nexus repo</name>
-                <url>http://hospdev.hispindia.org/nexus/content/repositories/snapshots/</url>
-                <uniqueVersion>false</uniqueVersion>
+				<id>afyaehms-snapshots</id>
+				<url>http://afyaehms.org:8081/nexus/content/repositories/snapshots</url>
+				<uniqueVersion>false</uniqueVersion>
              </snapshotRepository>
         </distributionManagement>
 	
